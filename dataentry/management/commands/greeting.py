@@ -7,7 +7,7 @@ class Command(BaseCommand) :
     help = "Greets the user"
 
     def add_arguments(self, parser):
-        parser.add_argument ("name", type=str, help="Sspecifies user name")
+        parser.add_argument ("name", type=str, help="Specifies user name")
 
     def handle(self, *args, **kwargs) :
         # write the logic
