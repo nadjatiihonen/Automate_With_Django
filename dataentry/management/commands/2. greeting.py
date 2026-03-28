@@ -1,8 +1,8 @@
 from django.core.management.base import BaseCommand
 
 
-#Propposed command = python manage.py greeting John
-# Propposed output = Hi {name}, Good Morning
+#Propposed (предложенная) command = python manage.py greeting John
+# Propposed output (предложенный результат) = Hi {name}, Good Morning
 class Command(BaseCommand) :
     help = "Greets the user"
 
